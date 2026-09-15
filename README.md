@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mouad Souhal — AI & Data Science Portfolio
+# Mouad Souhal - AI & Data Science Portfolio
 
 ### State Engineer in Data Science
 

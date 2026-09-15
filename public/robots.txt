@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mouadshl.github.io/sitemap.xml

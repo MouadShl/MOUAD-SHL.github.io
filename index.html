@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f1720" />
+    <meta name="robots" content="index, follow" />
+    <meta name="portfolio-version" content="2026.09.04.3" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260904-3" />
+    <link rel="canonical" href="https://mouadshl.github.io/" />
+
+    <title>Mouad Souhal | Data Scientist & Data Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Mouad Souhal, a Data Scientist specializing in NLP, Machine Learning, Data Engineering, and Business Intelligence."
+    />
+    <meta
+      name="keywords"
+      content="Mouad Souhal, Data Scientist, Data Engineer, Machine Learning, NLP, Python, Power BI, Morocco"
+    />
+    <meta name="author" content="Mouad Souhal" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mouad Souhal Portfolio" />
+    <meta property="og:title" content="Mouad Souhal | Data Scientist & Data Engineer" />
+    <meta
+      property="og:description"
+      content="Data Scientist building NLP, Machine Learning, and Data Engineering solutions. Explore selected projects, experience, and certifications."
+    />
+    <meta property="og:url" content="https://mouadshl.github.io/" />
+    <meta
+      property="og:image"
+      content="https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png?v=20260904-3"
+    />
+    <meta property="og:image:alt" content="Mouad Souhal — Data Scientist & Data Engineer" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mouad Souhal | Data Scientist & Data Engineer" />
+    <meta
+      name="twitter:description"
+      content="Portfolio featuring NLP, Machine Learning, and Data Engineering projects."
+    />
+    <meta
+      name="twitter:image"
+      content="https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png?v=20260904-3"
+    />
+    <meta name="twitter:image:alt" content="Mouad Souhal — Data Scientist & Data Engineer" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mouad Souhal",
+        "url": "https://mouadshl.github.io/",
+        "image": "https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png",
+        "jobTitle": "Data Scientist & Data Engineer",
+        "description": "Data Scientist specializing in NLP, Machine Learning, Data Engineering, and Business Intelligence.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Rabat",
+          "addressCountry": "MA"
+        },
+        "sameAs": [
+          "https://github.com/MouadShl",
+          "https://www.linkedin.com/in/mouad-souhal/",
+        ],
+        "knowsAbout": [
+          "Data Science",
+          "Machine Learning",
+          "Natural Language Processing",
+          "Data Engineering",
+          "Business Intelligence"
+        ]
+      }
+    </script>
+
+    <script>
+      (() => {
+        try {
+          const redirectedRoute = sessionStorage.getItem("portfolio-spa-route");
+
+          if (redirectedRoute) {
+            sessionStorage.removeItem("portfolio-spa-route");
+            window.history.replaceState(null, "", redirectedRoute);
+            return;
+          }
+
+          // One-time migration for old HashRouter links such as /#/demos.
+          if (window.location.hash.startsWith("#/")) {
+            const legacyRoute = window.location.hash.slice(1);
+            window.history.replaceState(
+              null,
+              "",
+              `${legacyRoute}${window.location.search}`
+            );
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <script>
+      try {
+        const theme = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

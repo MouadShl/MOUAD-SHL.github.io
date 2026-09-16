@@ -1,7 +1,7 @@
 export const creditDefaultRiskProject = {
   id: 2,
   slug: "credit-default-risk-prediction",
-  title: "Credit Default Risk Prediction — Moroccan Bank Portfolio",
+  title: "Credit Default Risk Prediction - Moroccan Bank Portfolio",
   description:
     "An end-to-end machine learning pipeline predicting credit-card default risk for a Moroccan bank portfolio of 30,000 clients, comparing 7 models, optimizing XGBoost, adding SHAP explainability, and deploying via Streamlit.",
   image: "assets/images/projects/credit-default-risk/main.svg",
@@ -9,7 +9,7 @@ export const creditDefaultRiskProject = {
   link: "/projects/credit-default-risk-prediction",
   github: "https://github.com/MouadShl",
   company: "Personal Project",
-  period: "2025 — 2026",
+  period: "2025 - 2026",
   location: "Morocco",
   role: "Machine Learning Engineer",
 

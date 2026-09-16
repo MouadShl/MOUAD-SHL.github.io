@@ -12,7 +12,7 @@ const issuerLogoDomains = {
   "KNIME": "knime.com",
   "Anaconda": "anaconda.com",
   "Microsoft": "microsoft.com",
-  "Worldchefs — World Association of Chefs' Societies": "worldchefs.org",
+  "Worldchefs - World Association of Chefs' Societies": "worldchefs.org",
 };
 
 export const CertificationIssuerLogo = ({ issuer }) => {
@@ -198,7 +198,7 @@ export const certifications = [
   },
   {
     id: 17,
-    title: "Certification Microsoft Office Specialist — Word 2016",
+    title: "Certification Microsoft Office Specialist - Word 2016",
     issuer: "Microsoft",
     date: "Dec 2021",
     description: "Certification validating proficiency in Microsoft Word 2016.",
@@ -208,7 +208,7 @@ export const certifications = [
   },
   {
     id: 18,
-    title: "Certification Microsoft Office Specialist — Excel 2016",
+    title: "Certification Microsoft Office Specialist - Excel 2016",
     issuer: "Microsoft",
     date: "Dec 2021",
     description: "Certification validating proficiency in Microsoft Excel 2016.",
@@ -219,7 +219,7 @@ export const certifications = [
   {
     id: 19,
     title: "Food Heroes Facilitator",
-    issuer: "Worldchefs — World Association of Chefs' Societies",
+    issuer: "Worldchefs - World Association of Chefs' Societies",
     date: "Oct 2025",
     description: "Facilitator certification for the Food Heroes program with Worldchefs. Skills: Project Management.",
     icon: <Award className="w-6 h-6" />,

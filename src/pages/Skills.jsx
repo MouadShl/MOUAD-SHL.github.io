@@ -223,7 +223,7 @@ export const Skills = () => {
 
             <p className="mt-4 md:mt-5 max-w-3xl text-sm md:text-base text-muted-foreground leading-relaxed animate-fade-in animation-delay-200">
               A focused view of the technologies and engineering practices I use
-              to design, evaluate, deploy, and improve AI products — backed by
+              to design, evaluate, deploy, and improve AI products - backed by
               project evidence instead of a generic list of tools.
             </p>
 

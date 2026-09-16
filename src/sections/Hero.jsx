@@ -43,8 +43,44 @@ export const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-10 md:pb-14 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-          <div className="space-y-3 md:space-y-4 order-2 lg:order-1">
+        <div className="grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] gap-8 md:gap-12 items-center">
+          <div className="relative animate-fade-in animation-delay-300 order-1">
+            <div className="relative max-w-xs sm:max-w-sm mx-auto lg:mx-0">
+              <div className="absolute -inset-3 rounded-[2rem] border border-primary/25" />
+              <div className="absolute -top-4 -left-4 w-16 h-16 border-t-2 border-l-2 border-primary rounded-tl-2xl" />
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-2 border-r-2 border-primary rounded-br-2xl" />
+
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10">
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/images/profile/mouad_souhal_profile.png`}
+                  alt="Mouad Souhal"
+                  className="w-full aspect-[4/5] object-cover"
+                  loading="eager"
+                  fetchPriority="high"
+                  width="400"
+                  height="500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2 rounded-xl bg-background/70 backdrop-blur-md border border-border/40 px-3 py-2.5">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+                    <span className="text-xs md:text-sm font-medium">
+                      {t("hero.availableForWork")}
+                    </span>
+                  </div>
+                  <div className="text-right leading-none">
+                    <div className="text-base md:text-lg font-bold text-primary">1+</div>
+                    <div className="text-[9px] md:text-[10px] text-muted-foreground uppercase tracking-wide">
+                      {t("hero.yearsExp")}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-3 md:space-y-4 order-2">
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-full glass text-xs md:text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
@@ -111,39 +147,6 @@ export const Hero = () => {
               >
                 <Linkedin className="w-4 h-4 md:w-[18px] md:h-[18px]" strokeWidth={2.2} />
               </a>
-            </div>
-          </div>
-
-          <div className="relative animate-fade-in animation-delay-300 order-1 lg:order-2">
-            <div className="relative max-w-xs sm:max-w-md mx-auto">
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
-              <div className="relative glass rounded-3xl p-2 glow-border">
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/images/profile/mouad_souhal_profile.png`}
-                  alt="Mouad Souhal"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
-                  loading="eager"
-                  fetchPriority="high"
-                  width="400"
-                  height="500"
-                />
-
-                <div className="absolute -bottom-3 md:-bottom-4 -right-3 md:-right-4 glass rounded-xl px-3 md:px-4 py-2 md:py-3 animate-float">
-                  <div className="flex items-center gap-2 md:gap-3">
-                    <div className="w-2 h-2 md:w-3 md:h-3 bg-green-500 rounded-full animate-pulse" />
-                    <span className="text-xs md:text-sm font-medium">
-                      {t("hero.availableForWork")}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="absolute -top-3 md:-top-4 -left-3 md:-left-4 glass rounded-xl px-3 md:px-4 py-2 md:py-3 animate-float animation-delay-500">
-                  <div className="text-xl md:text-2xl font-bold text-primary">1+</div>
-                  <div className="text-[10px] md:text-xs text-muted-foreground">
-                    {t("hero.yearsExp")}
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

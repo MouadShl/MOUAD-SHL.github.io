@@ -64,7 +64,7 @@ export const LanguageProvider = ({ children }) => {
         headline: "Construire des solutions",
         headlineHighlight: "intelligentes",
         headlineSuffix: "pour un impact réel.",
-        description: "Bonjour, je suis Mouad Souhal — Data Scientist diplômé de SUP’MTI Rabat, spécialisé en NLP, Machine Learning et Data Engineering. Chez Ziwig Morocco, j’ai construit un pipeline de bout en bout analysant plus de 300 000 messages patients sur l’endométriose, avec des dashboards Power BI adoptés par la direction. Je conçois des systèmes de données fiables, orientés impact, du scraping jusqu’au dashboard final.",
+        description: "Bonjour, je suis Mouad Souhal - Data Scientist diplômé de SUP’MTI Rabat, spécialisé en NLP, Machine Learning et Data Engineering. Chez Ziwig Morocco, j’ai construit un pipeline de bout en bout analysant plus de 300 000 messages patients sur l’endométriose, avec des dashboards Power BI adoptés par la direction. Je conçois des systèmes de données fiables, orientés impact, du scraping jusqu’au dashboard final.",
         contact: "Me contacter",
         downloadCV: "Télécharger le CV",
         follow: "Suivez-moi :",
@@ -73,7 +73,7 @@ export const LanguageProvider = ({ children }) => {
         available: "Actuellement disponible",
         availableForWork: "Disponible pour travailler",
         yearsExp: "Année d’expérience",
-        fiverrTitle: "Fiverr — Me contacter pour une mission",
+        fiverrTitle: "Fiverr - Me contacter pour une mission",
         scroll: "Défiler",
       },
       about: {
@@ -105,7 +105,7 @@ export const LanguageProvider = ({ children }) => {
         title: "Travaux sélectionnés",
         headline: "Des projets IA qui",
         headlineHighlight: "créent de l’impact.",
-        description: "Une sélection de mes travaux en Data Science, intelligence artificielle et Machine Learning — de l’analyse de données aux systèmes intelligents et applications IA.",
+        description: "Une sélection de mes travaux en Data Science, intelligence artificielle et Machine Learning - de l’analyse de données aux systèmes intelligents et applications IA.",
         viewAll: "Voir tous les projets & démos",
       },
       certifications: {
@@ -156,7 +156,7 @@ export const LanguageProvider = ({ children }) => {
         headline: "Building intelligent",
         headlineHighlight: "AI solutions",
         headlineSuffix: "for real-world impact.",
-        description: "Hi, I’m Mouad Souhal — a Data Scientist from SUP’MTI Rabat specializing in NLP, Machine Learning, and Data Engineering. At Ziwig Morocco, I built an end-to-end pipeline analyzing over 300,000 patient messages on endometriosis, delivering Power BI dashboards adopted by leadership. I design reliable, impact-driven data systems, from scraping to final dashboard.",
+        description: "Hi, I’m Mouad Souhal - a Data Scientist from SUP’MTI Rabat specializing in NLP, Machine Learning, and Data Engineering. At Ziwig Morocco, I built an end-to-end pipeline analyzing over 300,000 patient messages on endometriosis, delivering Power BI dashboards adopted by leadership. I design reliable, impact-driven data systems, from scraping to final dashboard.",
         contact: "Contact Me",
         downloadCV: "Download CV",
         follow: "Follow me:",
@@ -165,7 +165,7 @@ export const LanguageProvider = ({ children }) => {
         available: "Currently Available",
         availableForWork: "Available for work",
         yearsExp: "Year of Experience",
-        fiverrTitle: "Fiverr — Hire me",
+        fiverrTitle: "Fiverr - Hire me",
         scroll: "Scroll",
       },
       about: {
@@ -197,7 +197,7 @@ export const LanguageProvider = ({ children }) => {
         title: "Featured Work",
         headline: "AI Projects that",
         headlineHighlight: "drive innovation.",
-        description: "A selection of my work in Data Science, AI, and Machine Learning — from data analysis projects to intelligent systems and applications.",
+        description: "A selection of my work in Data Science, AI, and Machine Learning - from data analysis projects to intelligent systems and applications.",
         viewAll: "View All Projects & Demos",
       },
       certifications: {

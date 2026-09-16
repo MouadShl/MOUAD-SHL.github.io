@@ -10,8 +10,8 @@ import alAnjalLogo from "@/assets/images/logos/al_anjal.svg";
 const workExperiences = [
   {
     period: {
-      en: "Feb 2026 — Aug 2026",
-      fr: "Fév 2026 — Août 2026",
+      en: "Feb 2026 - Aug 2026",
+      fr: "Fév 2026 - Août 2026",
     },
     role: {
       en: "Data Scientist (PFE)",
@@ -22,8 +22,8 @@ const workExperiences = [
       fr: "Ziwig Morocco",
     },
     companyDetail: {
-      en: "Healthtech — endometriosis platform",
-      fr: "Healthtech — plateforme endométriose",
+      en: "Healthtech - endometriosis platform",
+      fr: "Healthtech - plateforme endométriose",
     },
     companyLink: null,
     description: {
@@ -45,14 +45,14 @@ const workExperiences = [
       ],
     },
     technologies: ["Python", "CamemBERT", "RoBERTa", "BERTopic", "SQL Server", "Power BI"],
-    current: true,
+    current: false,
     logo: ziwigLogo,
     logoClassName: "w-full h-full object-contain bg-white p-2.5",
   },
   {
     period: {
-      en: "May 2023 — Jun 2023",
-      fr: "Mai 2023 — Juin 2023",
+      en: "May 2023 - Jun 2023",
+      fr: "Mai 2023 - Juin 2023",
     },
     role: {
       en: "Full Stack Developer",
@@ -88,8 +88,8 @@ const workExperiences = [
   },
   {
     period: {
-      en: "Apr 2022 — May 2022",
-      fr: "Avr 2022 — Mai 2022",
+      en: "Apr 2022 - May 2022",
+      fr: "Avr 2022 - Mai 2022",
     },
     role: {
       en: "IT Developer",
@@ -128,8 +128,8 @@ const workExperiences = [
 const education = [
   {
     period: {
-      en: "Oct 2023 — Jul 2026",
-      fr: "Oct 2023 — Juil 2026",
+      en: "Oct 2023 - Jul 2026",
+      fr: "Oct 2023 - Juil 2026",
     },
     degree: {
       en: "Engineering Degree in Data Science (GI-IDS)",
@@ -138,8 +138,8 @@ const education = [
     school: "SUP MTI Rabat",
     logo: supMtiLogo,
     detail: {
-      en: "Engineering Cycle — Data Science / IoT specialization",
-      fr: "Cycle d'ingénieur — spécialisation Data Science / IoT",
+      en: "Engineering Cycle - Data Science / IoT specialization",
+      fr: "Cycle d'ingénieur - spécialisation Data Science / IoT",
     },
     description: {
       en: "Engineering curriculum covering Data Science, Machine Learning, NLP, Data Engineering and Business Intelligence.",
@@ -150,12 +150,12 @@ const education = [
   },
   {
     period: {
-      en: "Sep 2020 — Jul 2023",
-      fr: "Sept 2020 — Juil 2023",
+      en: "Sep 2020 - Jul 2023",
+      fr: "Sept 2020 - Juil 2023",
     },
     degree: {
-      en: "Specialized Technician — Full Stack Development",
-      fr: "Technicien Spécialisé — Développement Full Stack",
+      en: "Specialized Technician - Full Stack Development",
+      fr: "Technicien Spécialisé - Développement Full Stack",
     },
     school: "OFPPT Hay Riad, Rabat",
     logo: ofpptLogo,
@@ -172,8 +172,8 @@ const education = [
   },
   {
     period: {
-      en: "Sep 2019 — Jul 2020",
-      fr: "Sept 2019 — Juil 2020",
+      en: "Sep 2019 - Jul 2020",
+      fr: "Sept 2019 - Juil 2020",
     },
     degree: {
       en: "Baccalauréat, Physical Sciences (Mention Bien)",

@@ -15,7 +15,7 @@ const DEFAULT_SEO = {
   canonical: "https://mouadshl.github.io/",
   image:
     "https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png?v=20260904-3",
-  imageAlt: "Mouad Souhal — AI/ML & Data Science Engineer",
+  imageAlt: "Mouad Souhal - AI/ML & Data Science Engineer",
 };
 
 const PROJECT_SEO = {
@@ -32,7 +32,7 @@ const PROJECT_SEO = {
   image:
     "https://mouadshl.github.io/assets/images/projects/ask-mouad-ai/main.png",
   imageAlt:
-    "Ask Mouad AI — evidence-grounded portfolio copilot integrated into Mouad Souhal's portfolio",
+    "Ask Mouad AI - evidence-grounded portfolio copilot integrated into Mouad Souhal's portfolio",
 };
 
 const upsertMeta = (attribute, key, content) => {

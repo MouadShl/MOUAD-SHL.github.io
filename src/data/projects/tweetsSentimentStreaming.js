@@ -9,7 +9,7 @@ export const tweetsSentimentStreamingProject = {
   link: "/projects/realtime-twitter-sentiment-streaming",
   github: "https://github.com/MouadShl",
   company: "Personal Project",
-  period: "2025 — 2026",
+  period: "2025 - 2026",
   location: "Morocco",
   role: "Data Engineer",
 

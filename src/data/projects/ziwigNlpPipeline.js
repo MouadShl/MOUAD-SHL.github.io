@@ -17,7 +17,7 @@ export const ziwigNlpPipelineProject = {
   link: "/projects/ziwig-nlp-intelligence-pipeline",
   github: null,
   company: "Ziwig Morocco",
-  period: "Feb 2026 — Aug 2026",
+  period: "Feb 2026 - Aug 2026",
   location: "Morocco",
   role: "Data Scientist (PFE / Graduation Project)",
 

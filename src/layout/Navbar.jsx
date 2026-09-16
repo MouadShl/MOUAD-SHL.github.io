@@ -8,7 +8,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const navLinks = [
   { href: "#about", label: "nav.about" },
-  { href: "/demos", label: "nav.projects" },
+  { href: "#projects", label: "nav.projects" },
   { href: "/skills", label: "nav.skills" },
   { href: "/certifications", label: "nav.certifications" },
   { href: "#experience", label: "nav.experience" },
@@ -61,7 +61,7 @@ export const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
         isScrolled ? "glass-strong py-3" : "bg-transparent py-3"
-      } ${location.pathname === '/demos' || location.pathname === '/skills' || location.pathname === '/certifications' ? "bg-primary/10 border-b border-primary/20" : ""} z-50`}
+      } ${location.pathname === '/skills' || location.pathname === '/certifications' ? "bg-primary/10 border-b border-primary/20" : ""} z-50`}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         {/* Left - Logo */}

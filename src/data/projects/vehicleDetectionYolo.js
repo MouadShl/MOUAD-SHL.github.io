@@ -9,7 +9,7 @@ export const vehicleDetectionYoloProject = {
   link: "/projects/traffic-vehicle-detection-yolov8",
   github: "https://github.com/MouadShl",
   company: "Personal Project",
-  period: "2025 — 2026",
+  period: "2025 - 2026",
   location: "Morocco",
   role: "Computer Vision Engineer",
 

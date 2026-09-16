@@ -66,7 +66,7 @@ It goes beyond project titles and screenshots by presenting:
 - the source repository;
 - the available demonstration.
 
-> **Not just a project gallery — a portfolio built around engineering evidence.**
+> **Not just a project gallery - a portfolio built around engineering evidence.**
 
 ---
 
@@ -391,7 +391,7 @@ education:
   status: Completed
 
 graduation_project:
-  organization: NEXTRONIC — ABA Technology Group
+  organization: NEXTRONIC - ABA Technology Group
   duration: February 2026 to August 2026
   status: Completed
   distinction: Excellent

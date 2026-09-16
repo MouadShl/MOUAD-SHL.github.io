@@ -1,24 +1,40 @@
+import { useEffect, useRef } from "react";
+import particlesConfig from "@/particles.json";
+
 export const ParticlesBackground = () => {
+  const initialized = useRef(false);
+
+  useEffect(() => {
+    // Prevent duplicate initialization (especially in StrictMode)
+    if (initialized.current) return;
+    initialized.current = true;
+
+    if (!window.particlesJS) {
+      console.error("particles.js is not loaded");
+      return;
+    }
+
+    const container = document.getElementById("particles-canvas");
+    if (!container) return;
+    if (container.querySelector("canvas")) {
+      return;
+    }
+
+    try {
+      const config = JSON.parse(JSON.stringify(particlesConfig));
+      window.particlesJS("particles-canvas", config);
+    } catch (error) {
+      console.error("Failed to initialize particles:", error);
+    }
+  }, []);
+
   return (
     <div
-      id="particles-bg"
       className="pointer-events-none fixed inset-0 z-0 overflow-hidden"
       aria-hidden="true"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,color-mix(in_srgb,var(--color-primary)_18%,transparent),transparent_45%),radial-gradient(circle_at_85%_75%,color-mix(in_srgb,var(--color-highlight)_12%,transparent),transparent_50%)]" />
-
-      <div
-        className="absolute inset-0 opacity-[0.05]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, var(--color-foreground) 1px, transparent 1px), linear-gradient(to bottom, var(--color-foreground) 1px, transparent 1px)",
-          backgroundSize: "56px 56px",
-        }}
-      />
-
-      <div className="absolute -top-24 -left-24 w-[28rem] h-[28rem] rounded-full bg-primary/20 blur-[120px]" style={{ animation: "slow-drift 22s ease-in-out infinite" }} />
-      <div className="absolute top-1/3 -right-32 w-[24rem] h-[24rem] rounded-full bg-highlight/15 blur-[130px]" style={{ animation: "slow-drift 28s ease-in-out infinite reverse" }} />
-      <div className="absolute bottom-0 left-1/4 w-[20rem] h-[20rem] rounded-full bg-primary/10 blur-[110px]" style={{ animation: "slow-drift 25s ease-in-out infinite" }} />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,color-mix(in_srgb,var(--color-primary)_12%,transparent),transparent_50%),radial-gradient(circle_at_80%_80%,color-mix(in_srgb,var(--color-highlight)_10%,transparent),transparent_55%)]" />
+      <div id="particles-canvas" className="absolute inset-0 pointer-events-auto" />
     </div>
   );
 };

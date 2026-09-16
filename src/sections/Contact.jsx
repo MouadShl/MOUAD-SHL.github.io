@@ -47,9 +47,9 @@ export const Contact = () => {
           namePlaceholder: "Votre nom",
           emailPlaceholder: "votre@email.com",
           messagePlaceholder: "Parlez-moi de votre projet ou opportunité...",
-          availabilityTitle: "Ouvert aux opportunités IA/ML",
+          availabilityTitle: "Ouvert aux opportunités Data",
           availabilityDescription:
-            "Disponible pour des postes CDI / temps plein en ingénierie IA/ML et une sélection de missions freelance, avec un focus sur RAG, LLM, Computer Vision, MLOps et Data Science.",
+            "Disponible pour des postes CDI en tant que Data Scientist, Data Analyst ou Data Engineer, en priorité dans l'industrie du sport automobile.",
           badges: ["CDI / Temps plein", "Rabat", "Remote / Hybride"],
           location:
             "Rabat · Casablanca · Ouvert aux opportunités internationales",
@@ -63,9 +63,9 @@ export const Contact = () => {
           namePlaceholder: "Your name",
           emailPlaceholder: "your@email.com",
           messagePlaceholder: "Tell me about your project or opportunity...",
-          availabilityTitle: "Open to AI/ML Opportunities",
+          availabilityTitle: "Open to Data Opportunities",
           availabilityDescription:
-            "Available for full-time AI/ML Engineering roles and selected freelance projects, with a focus on RAG, LLM applications, Computer Vision, MLOps, and Data Science.",
+            "Available for full-time roles as a Data Scientist, Data Analyst, or Data Engineer, prioritizing the motorsport industry.",
           badges: ["Full-Time", "Rabat", "Remote / Hybrid"],
           location:
             "Rabat · Casablanca · Open to international opportunities",

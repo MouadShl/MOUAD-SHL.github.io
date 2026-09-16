@@ -1,38 +1,18 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
-const PROJECT_PATH = "/projects/ask-mouad-ai-portfolio-intelligence";
-
-const DEFAULT_SEO = {
-  lang: "fr",
-  locale: "fr_FR",
-  alternateLocale: "en_US",
-  title: "Mouad Souhal | AI/ML & Data Science Engineer",
-  description:
-    "Portfolio of Mouad Souhal, Data Science and AI/ML Engineer specializing in RAG systems, LLM applications, Computer Vision, Machine Learning, MLOps, and Data Engineering.",
-  keywords:
-    "Mouad Souhal, AI Engineer, Machine Learning Engineer, Data Science Engineer, RAG, LLM, Computer Vision, MLOps, Python, Morocco",
-  canonical: "https://mouadshl.github.io/",
-  image:
-    "https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png?v=20260904-3",
-  imageAlt: "Mouad Souhal - AI/ML & Data Science Engineer",
-};
-
-const PROJECT_SEO = {
+const SEO = {
   lang: "en",
   locale: "en_US",
   alternateLocale: "fr_FR",
-  title: "Ask Mouad AI | Evidence-Grounded RAG Portfolio Copilot",
+  title: "Mouad Souhal | Data Scientist & Data Engineer",
   description:
-    "Production AI portfolio copilot by Mouad Souhal built with Hybrid RAG, FastAPI, Gemini, BM25, FastEmbed, RRF, grounding and multilingual retrieval.",
+    "Portfolio of Mouad Souhal, a Data Scientist specializing in NLP, Machine Learning, Data Engineering, and Business Intelligence.",
   keywords:
-    "Ask Mouad AI, Mouad Souhal, Hybrid RAG, RAG portfolio copilot, FastAPI, Gemini, BM25, FastEmbed, Reciprocal Rank Fusion, Grounded AI, Multilingual AI",
-  canonical:
-    "https://mouadshl.github.io/projects/ask-mouad-ai-portfolio-intelligence",
+    "Mouad Souhal, Data Scientist, Data Analyst, Data Engineer, Machine Learning, NLP, Python, Power BI, Morocco",
+  canonical: "https://mouadshl.github.io/",
   image:
-    "https://mouadshl.github.io/assets/images/projects/ask-mouad-ai/main.png",
-  imageAlt:
-    "Ask Mouad AI - evidence-grounded portfolio copilot integrated into Mouad Souhal's portfolio",
+    "https://mouadshl.github.io/assets/images/profile/mouad_souhal_profile.png",
+  imageAlt: "Mouad Souhal - Data Scientist & Data Engineer",
 };
 
 const upsertMeta = (attribute, key, content) => {
@@ -60,34 +40,29 @@ const setCanonical = (href) => {
 };
 
 export function AskMouadProjectSEO() {
-  const location = useLocation();
-
   useEffect(() => {
-    const normalizedPath = location.pathname.replace(/\/$/, "") || "/";
-    const seo = normalizedPath === PROJECT_PATH ? PROJECT_SEO : DEFAULT_SEO;
+    document.documentElement.lang = SEO.lang;
+    document.title = SEO.title;
+    setCanonical(SEO.canonical);
 
-    document.documentElement.lang = seo.lang;
-    document.title = seo.title;
-    setCanonical(seo.canonical);
-
-    upsertMeta("name", "description", seo.description);
-    upsertMeta("name", "keywords", seo.keywords);
+    upsertMeta("name", "description", SEO.description);
+    upsertMeta("name", "keywords", SEO.keywords);
 
     upsertMeta("property", "og:type", "website");
-    upsertMeta("property", "og:title", seo.title);
-    upsertMeta("property", "og:description", seo.description);
-    upsertMeta("property", "og:url", seo.canonical);
-    upsertMeta("property", "og:image", seo.image);
-    upsertMeta("property", "og:image:alt", seo.imageAlt);
-    upsertMeta("property", "og:locale", seo.locale);
-    upsertMeta("property", "og:locale:alternate", seo.alternateLocale);
+    upsertMeta("property", "og:title", SEO.title);
+    upsertMeta("property", "og:description", SEO.description);
+    upsertMeta("property", "og:url", SEO.canonical);
+    upsertMeta("property", "og:image", SEO.image);
+    upsertMeta("property", "og:image:alt", SEO.imageAlt);
+    upsertMeta("property", "og:locale", SEO.locale);
+    upsertMeta("property", "og:locale:alternate", SEO.alternateLocale);
 
     upsertMeta("name", "twitter:card", "summary_large_image");
-    upsertMeta("name", "twitter:title", seo.title);
-    upsertMeta("name", "twitter:description", seo.description);
-    upsertMeta("name", "twitter:image", seo.image);
-    upsertMeta("name", "twitter:image:alt", seo.imageAlt);
-  }, [location.pathname]);
+    upsertMeta("name", "twitter:title", SEO.title);
+    upsertMeta("name", "twitter:description", SEO.description);
+    upsertMeta("name", "twitter:image", SEO.image);
+    upsertMeta("name", "twitter:image:alt", SEO.imageAlt);
+  }, []);
 
   return null;
 }

@@ -45,7 +45,7 @@ const workExperiences = [
       ],
     },
     technologies: ["Python", "CamemBERT", "RoBERTa", "BERTopic", "SQL Server", "Power BI"],
-    current: true,
+    current: false,
     logo: ziwigLogo,
     logoClassName: "w-full h-full object-contain bg-white p-2.5",
   },

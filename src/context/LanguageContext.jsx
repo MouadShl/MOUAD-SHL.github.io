@@ -60,7 +60,7 @@ export const LanguageProvider = ({ children }) => {
         contact: "Contact",
       },
       hero: {
-        badge: "Data Scientist & Ingénieur Data",
+        badge: "Ingénieur d'État en Data Science",
         headline: "Construire des solutions",
         headlineHighlight: "intelligentes",
         headlineSuffix: "pour un impact réel.",

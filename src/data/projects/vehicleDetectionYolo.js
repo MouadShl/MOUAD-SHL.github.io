@@ -4,10 +4,10 @@ export const vehicleDetectionYoloProject = {
   title: "Traffic Vehicle Detection (YOLOv8)",
   description:
     "A computer vision project detecting and classifying vehicles in traffic footage using YOLOv8 object detection.",
-  image: "assets/images/projects/vehicle-detection/main.svg",
+  image: "assets/images/projects/vehicle-detection/main.png",
   tags: ["YOLOv8", "Computer Vision", "Python"],
   link: "/projects/traffic-vehicle-detection-yolov8",
-  github: "https://github.com/MouadShl",
+  github: "https://github.com/MouadShl/traffic-vehicle-detection-yolov8.git",
   company: "Personal Project",
   period: "2025 - 2026",
   location: "Morocco",

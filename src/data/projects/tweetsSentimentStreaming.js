@@ -4,10 +4,10 @@ export const tweetsSentimentStreamingProject = {
   title: "Real-Time Twitter Sentiment Analysis (Big Data)",
   description:
     "A real-time streaming pipeline for tweet sentiment analysis using Apache Kafka and Spark Structured Streaming, with MongoDB storage, NLP sentiment classification, and full containerization with Docker.",
-  image: "assets/images/projects/tweets-sentiment/main.svg",
+  image: "assets/images/projects/tweets-sentiment/main.png",
   tags: ["Apache Kafka", "Spark Structured Streaming", "MongoDB", "Docker", "NLP"],
   link: "/projects/realtime-twitter-sentiment-streaming",
-  github: "https://github.com/MouadShl",
+  github: "https://github.com/MouadShl/tweets-sentiment-analysis-bigdata.git",
   company: "Personal Project",
   period: "2025 - 2026",
   location: "Morocco",

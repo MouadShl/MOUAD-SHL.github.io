@@ -4,7 +4,7 @@ export const ziwigNlpPipelineProject = {
   title: "Ziwig NLP Intelligence Pipeline (PFE)",
   description:
     "An end-to-end data intelligence pipeline built for Ziwig Morocco's endometriosis healthtech platform: multilingual web scraping, bilingual NLP sentiment analysis, a star-schema data warehouse, and Power BI dashboards adopted by leadership.",
-  image: "assets/images/projects/ziwig-nlp-pipeline/main.svg",
+  image: "assets/images/projects/ziwig-nlp-pipeline/main.png",
   tags: [
     "NLP",
     "CamemBERT",
@@ -15,7 +15,7 @@ export const ziwigNlpPipelineProject = {
     "ETL",
   ],
   link: "/projects/ziwig-nlp-intelligence-pipeline",
-  github: null,
+  github: "https://github.com/MouadShl/Ziwig-Analyse.git",
   company: "Ziwig Morocco",
   period: "Feb 2026 - Aug 2026",
   location: "Morocco",
